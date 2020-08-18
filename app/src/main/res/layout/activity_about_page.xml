@@ -1,0 +1,48 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="10dp"
+  app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+  <android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp">
+
+
+    <TextView
+      android:id="@+id/heading_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="32dp"
+      android:text="About Us"
+      android:textSize="36sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+      android:id="@+id/textView3"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginBottom="16dp"
+      android:lineSpacingExtra="8sp"
+      android:text="Qusaqus is a fastest growing online shopping platform in Ethiopia. Founded in 2015, we brings you plenty of products in over different categories, including clothing, electronics, beauty products and home appliances with affordable prices.
+We passionately believe in keeping our customer's interest on top of everything else.
+All of your needs are available at Qusaqus.com
+"
+      android:textSize="14sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/heading_title" />
+  </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>
